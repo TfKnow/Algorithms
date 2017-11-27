@@ -19,6 +19,7 @@ Now, let's divide 9009 by all of the divisors above and get a final set 'A', tha
 { (1; 9009) , (3; 3003), (7; 1287), (9;1001), (11;819), (13;693), (21;429), (33;273), (39;231), (63; 143), (77;117), (91;99) } 
 (In the picture, I've missed (7; 1287) element, sorry). 
 Now, let's figure out values of 'x' and 'y'. 
+
 For example we'll only take first two elements from set 'A', and those are : { (1;9009), (3; 3003) }. 
 x = ( j + i ) / 2; 
 y = ( j - x ) / (square root of 'n', in our case n = 4, n = d^2, d = 3) = (j-x) / 3   
@@ -65,3 +66,4 @@ Quick wrap up:
 
 You get all of divisors that are larger than 0 and less than or equal to square root of k (x^2 - ny^2 = k), and from those divisors you create quotients that become j. And then you use 'i' and 'j' inside your system of equations, by checking if it's suitable for your equation
 
+http://www.scienceforums.net/topic/111623-diophantine-equation/
