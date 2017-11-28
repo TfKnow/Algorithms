@@ -1,3 +1,7 @@
+
+//You have an equation x^2 - ny^2 = k;
+//This is how you write a simple algorithm that finds suitable values of x and y that satisfy an equation with specific n and k value.
+
 package com.kompany;
 
 import java.util.StringJoiner;
